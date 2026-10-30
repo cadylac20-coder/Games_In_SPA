@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Twenty Boards</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>Twenty <em>Boards</em></h1>
+    <div class="subtitle">a small museum of traditional strategy games — play a friend, or the machine</div>
+    <div class="top-actions"><button id="lb-btn">🏆 Leaderboard</button><button id="settings-btn">⚙ Settings</button></div>
+  </header>
+
+  <div id="menu-screen">
+    <div class="game-grid" id="game-grid"></div>
+  </div>
+
+  <div id="game-screen" class="hidden">
+    <div class="game-header">
+      <button id="back-btn">← All games</button>
+      <div>
+        <h2 id="game-title"></h2>
+        <p id="game-tagline"></p>
+      </div>
+    </div>
+    <div class="layout">
+      <div class="board-shell">
+        <div id="board-area"></div>
+      </div>
+      <div class="panel" id="panel-area"></div>
+    </div>
+    <p class="rules-note" id="rules-note"></p>
+  </div>
+</div>
+
+<script src="js/common.js"></script>
+<script src="js/leaderboard.js"></script>
+<script src="js/games/surakarta.js"></script>
+<script src="js/games/seega.js"></script>
+<script src="js/games/kono.js"></script>
+<script src="js/games/tablut.js"></script>
+<script src="js/games/hex.js"></script>
+<script src="js/games/go.js"></script>
+<script src="js/games/hive.js"></script>
+<script src="js/games/reversi.js"></script>
+<script src="js/games/chess.js"></script>
+<script src="js/games/backgammon.js"></script>
+<script src="js/games/blokus.js"></script>
+<script src="js/games/homeworlds.js"></script>
+<script src="js/games/kamisado.js"></script>
+<script src="js/games/catchup.js"></script>
+<script src="js/games/zertz.js"></script>
+<script src="js/games/tak.js"></script>
+<script src="js/games/onitama.js"></script>
+<script src="js/games/mutorere.js"></script>
+<script src="js/games/konane.js"></script>
+<script src="js/games/baghchal.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
